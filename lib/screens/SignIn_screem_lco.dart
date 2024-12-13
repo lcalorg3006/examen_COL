@@ -15,7 +15,9 @@ class SigninScreemLco extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+        //FlutterLogo(size: 100,)
          child: Form(child: Column(
+        
           children: [
              customTextFormField(
                     hintText: 'Nombre',
@@ -56,8 +58,16 @@ class SigninScreemLco extends StatelessWidget {
                         child: Center(child: Text('Sign in'))),
                   )
           ],
-         )),
+          
+         ),),
+        
   
+      ),
+        floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.close),
+        onPressed: () {
+          Navigator.pop(context);
+        },
       ),
     );
   }
