@@ -8,22 +8,15 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      body: const Column(
+      body:  Column(
         children: [
           FlutterLogo(size:100),
+          ElevatedButton(onPressed: (){}, 
+          child: const Text('Sign in')),
+          ElevatedButton(onPressed:(){}, child: const Text('Sign up'))
           ],
 
       ),
-      floatingActionButton: FloatingActionButton(
-       /* onPressed:() =>{
-      Navigator.pushNamed( AppRoutes.MenuOptions[index].route);        },
-       */ onPressed: () {  },
-       child: const Text('Sign in'),
-        
-       // floatingActionButton: FloatingActionButton
-        /*(onPressed: (){
-
-        }*/ /**child: Text('Sign up'),*/)
     );
   }
 }
