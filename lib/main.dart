@@ -1,5 +1,5 @@
 import 'package:examen_col/router/app_routes.dart';
-import 'package:examen_col/screens/listview_screen_col.dart';
+import 'package:examen_col/screens/screens.dart';
 import 'package:examen_col/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
+      //home: const HomeScreen(),
       home:  const ListviewScreen(),
       initialRoute: AppRoutes.initialRoute,
       routes: AppRoutes.getAppRoutes(),
