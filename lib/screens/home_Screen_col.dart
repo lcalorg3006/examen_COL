@@ -20,10 +20,10 @@ class HomeScreen extends StatelessWidget {
        */ onPressed: () {  },
        child: const Text('Sign in'),
         
-        floatingActionButton: FloatingActionButton
-        (onPressed: (){
+       // floatingActionButton: FloatingActionButton
+        /*(onPressed: (){
 
-        }, child: Text('Sign up'),)
+        }*/ /**child: Text('Sign up'),*/)
     );
   }
 }
