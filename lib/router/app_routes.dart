@@ -10,7 +10,6 @@ class AppRoutes {
     MenuOption(route: 'Pista', icon: Icons.home_max_sharp, name: "Pista", screen:const  PistaScreen()),
     MenuOption(route: 'Monitores', icon: Icons.list_alt, name: "monitores", screen:const  MonitorScreen()),
     MenuOption(route: 'resservas', icon: Icons.list, name: "reservas", screen:const  AlertScreen()),
-    MenuOption(route: 'signin', icon:Icons.sign_language, name: 'signin', screen: SigninScreemLco())
 
 
   ];
